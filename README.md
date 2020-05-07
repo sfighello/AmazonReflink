@@ -9,7 +9,7 @@ Consigliato php 7.4
 ## Installazione
 Copiare o scaricare i file `index.php`, `functions.php`, `settings.php`. Modificate solo il file `settings.php` inserendo il vostro tag amazon, l'api token del vostro bot e il vostro <a href="https://bitly.is/2Wc4hDs">token Bitly</a>. Se volete modificate anche i parametri true o false. Per settare il webhook scrivete nella barra di ricerca del vostro browser questo link:
 ```
-https://api.telegram.org/bot{TOKEN}/setWebhook?url=https://{SITO}/cartella/file.php
+https://api.telegram.org/bot{TOKEN}/setWebhook?url=https://{SITO}/cartella/index.php
 ```
 Ovviamente cambiate `{TOKEN}` e `{SITO}` con il token del bot e il vostro sito.
 
